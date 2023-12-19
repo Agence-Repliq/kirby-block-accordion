@@ -1,0 +1,20 @@
+name: field.blocks.accordion.name
+icon: angle-right
+
+fields:
+  summary:
+    label: field.blocks.accordion.summary.label
+    type: writer
+    inline: true
+    marks: false
+  body:
+    label: field.blocks.accordion.body.label
+    type: writer
+    marks:
+      - bold
+      - italic
+      - link
+      - strike
+    nodes:
+      - bulletList
+      - orderedList

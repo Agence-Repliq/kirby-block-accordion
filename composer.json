@@ -1,0 +1,32 @@
+{
+    "name": "agence-repliq/kirby-block-accordion",
+    "description": "Custom Block accordion Kirby CMS blocks editor",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "authors": [
+        {
+            "name": "Baptiste lhopitault",
+            "homepage": "https://repliq.fr"
+        }
+    ],
+    "extra": {
+        "installer-name": "kirby-block-accordion"
+    },
+    "support": {
+		"issues": "https://github.com/Agence-Repliq/kirby-block-accordion/issues",
+		"source": "https://github.com/Agence-Repliq/kirby-block-accordion"
+	},
+    "keywords": [
+        "kirby",
+        "blocks",
+        "kirby-cms",
+        "kirby-plugin",
+        "custom-block"
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
