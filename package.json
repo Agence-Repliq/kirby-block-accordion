@@ -1,6 +1,8 @@
 {
     "name": "kirby-block-accordion",
     "description": "Custom block accordion Kirby CMS block editor",
+    "repository": "https://github.com/Agence-Repliq/kirby-block-accordion.git",
+    "version": "1.0.0",
     "postcss": {},
 
     "scripts": {
