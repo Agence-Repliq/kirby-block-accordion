@@ -1,8 +1,8 @@
+![Preview block accordion](https://raw.githubusercontent.com/Agence-Repliq/kirby-block-accordion/main/preview.gif)
+
 ## How to install
 **With composer** : `composer require agence-repliq/kirby-block-accordion`<br>
 or [download the last release](https://github.com/Agence-Repliq/kirby-block-accordion/releases) and put it in plugins folder.
-
-![Preview block accordion](https://raw.githubusercontent.com/Agence-Repliq/kirby-block-accordion/main/preview.gif)
 
 ## How to dev 
 **Install dependencies**</br>
