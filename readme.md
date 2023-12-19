@@ -1,3 +1,9 @@
+## How to install
+**With composer** : `composer require agence-repliq/kirby-block-accordion`<br>
+or [download the last release](https://github.com/Agence-Repliq/kirby-block-accordion/releases) and put it in plugins folder.
+
+
+
 ## How to dev 
 **Install dependencies**</br>
 `npm install`
