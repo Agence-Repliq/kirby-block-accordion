@@ -3,7 +3,7 @@
         <div v-if="content.summary">
             <details>
                 <summary v-html="content.summary"></summary>
-                <div v-if="content.body" v-html="content.body" class="k-block-accordion__body"></div>
+                <div @click="open" v-if="content.body" v-html="content.body" class="k-block-accordion__body"></div>
             </details>
         </div>
         <div v-else class="empty">
@@ -28,7 +28,8 @@
         color: var(--color-text);
         
         details summary {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1.5rem 1fr;
             font-weight: bold;
         }
         details summary:hover { cursor: pointer; }
@@ -45,7 +46,7 @@
             }
         }
         .k-block-accordion__body {
-            margin-left: 1.6rem;
+            margin-left: 1.5rem;
             margin-top: .5rem;
 
             p, ul, ol { margin-bottom: 0.75rem; }
